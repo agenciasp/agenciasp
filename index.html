@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENCIA PUBLICITARIA SP</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" href="./assets/images/icons8-lazo-marcapáginas.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="portfolio-main">
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="#"><img src="./assets/images/logo9.svg" alt="logo"></a>
+                    </div>
+                    <!-- toggle bar -->
+                    <div class="toggle-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="navigation-bar">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li class="hire-btn"><a href="#">AGENCIA SP</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- main content -->
+        <div class="main-content">
+            <div class="container">
+                <div class="main-content-wrapper">
+                    <div class="col-left">
+                        <span> || AGENCIA PROMOTORA ||</span>
+                        <h1>Agencia Promotora SP</h1>
+                        <p>Es una empresa dedicada a la busqueda de clientes interesados en sus servicios de publisidad; <br>Nosotros ubicaremos a los cientes interesados en adquirir un servicio de publicidad , por ende nosotros realizaremos la venta. "una vez realizada la venta usted solo tendra que cerrar el trato con el cliente". </p>
+                        <a href="https://www.instagram.com/arianagrande/?hl=es" target="_blank" class="btn-main" >
+                            Contacto
+                            <span> <img src="assets/images/arrow-right.svg" alt="arrow"></span>
+                            
+                        </a>
+                    </div>
+                    <div class="col-right">
+                    </div>
+                </div>
+                <!-- experiencia -->
+                <div class="experience-section">
+                    <div class="experience-inner">
+                        <div class="col">
+                            <h3>2 años</h3>
+                            <p>experiencia</p>
+                        </div>
+                        <div class="col">
+                            <h3>17.530+</h3>
+                            <p>Horas De Trabajo</p>
+                        </div>
+                        <div class="col">
+                            <h3>CDMX</h3>
+                            <p>Ubicación</p>
+                        </div>
+                        <div class="col">
+                            <h3>7am / 11pm</h3>
+                            <p>Atención A Clientes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./assets/js/jquery.min.js"></script>
+<script>
+    $('.toggle-bar').on('click', function (event) {
+        $('this').toggleClass('open');
+        $('.navigation-bar').slideToggle('200');
+    })
+</script>
+
+</html>
