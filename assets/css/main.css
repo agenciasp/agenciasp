@@ -31,9 +31,6 @@ body {
   padding: 0 200px;
 }
 /* Navbar */
-header {
- 
-}
 nav {
   display: flex;
   justify-content: space-between;
